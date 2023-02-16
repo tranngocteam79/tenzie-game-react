@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  },
+  // disable react props validation rule
+  "rules": {
+    "react/prop-types": "off"
+  },
+  "env": {
+    "browser": true
+  }
+}
