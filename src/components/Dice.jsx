@@ -1,7 +1,6 @@
 import React from "react";
 export default function Dice(props) {
   function genDiceFace(numOfDots) {
-    console.log(numOfDots);
     return (
       <div className="dots-container" data-dot={numOfDots}>
         {[...new Array(numOfDots)].map(() => (
